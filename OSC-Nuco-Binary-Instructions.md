@@ -22,7 +22,7 @@ Our kernel only supports Ubuntu 16.04 and uses Web3 API. If you don’t have the
 
 If it returns empty array, wait for 10 seconds and try it again, if there are node info in the array, you are successfully connected.
 
-7. You can check our dashboard at http://monitor.nuco.io:7000/#/ for up to date block info
+7. You can check our dashboard at http://monitor.nuco.io:7000/#/ for up-to-date block info
 
 
 # Stand alone node
