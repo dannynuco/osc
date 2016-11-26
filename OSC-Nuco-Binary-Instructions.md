@@ -1,5 +1,8 @@
 OSC Nuco Binary Instructions
 
+
+Our kernel only supports Ubuntu 16.04 and uses Web3 API. If you don’t have the setup, please ask for a virtual image.
+
 # Join Nuco network
 
 1. Uncompress the binary
