@@ -7,7 +7,6 @@ OSC Nuco Binary Instructions
     tar -xvf nucog1.3.4.1.tar.gz
 
 2. In nucog1.3.4.1 folder, export the environment
-
     source ./setenv.sh
 3. Setup a coinbase account:
     ./nucog account new
@@ -34,7 +33,7 @@ If it returns empty array, wait for 10 seconds and try it again, if there are no
     maxpeers = 0
     maxpendingpeers = 0
 3. In nucog1.3.4.1 folder, export the environment
-    source ./setevn.sh
+    source ./setenv.sh
 4. Setup a coinbase account:
     ./nucog account new
 5. Run Nuco kernel
@@ -59,7 +58,7 @@ If an empty array is returned, you are running a stand alone network
 
 3. In nucog1.3.4.1 folder, export the environment
 
-    source ./setevn.sh
+    source ./setenv.sh
 4. Setup a coinbase account:
     ./nucog account new
 5. Run Nuco kernel
@@ -141,7 +140,7 @@ If the console returns the node information you just added, you are successfully
 7. Transfer token from default account to another account:
     token.transfer(web3.eth.account[1], 10)
 8. Check account 1’s balance
-    balaceOf(web3.eth.accounts[1])
+    balanceOf(web3.eth.accounts[1])
 
 **
 **
@@ -153,7 +152,7 @@ If the console returns the node information you just added, you are successfully
 
 2. Deploy contract using the same contract address
 
-    var token = web3.eth.contract(abit).at(contract address)
+    var token = web3.eth.contract(abi).at(contract address)
 
 3. Transfer token to another node
 
